@@ -222,6 +222,10 @@ body {
     -webkit-aniamtion:text_anim 4.5s infinite;
     animation:text_anim 4.5s infinite;
 }
+#text > span > audio {
+    margin-top: 30px;
+    height: 30px;
+}
 
 @-webkit-keyframes text_anim{
     0%{
@@ -264,6 +268,9 @@ body {
         left: -70px;
         position: relative;
      
+     }
+     #text > span > audio {
+        width:250px;
      }
 }
 
